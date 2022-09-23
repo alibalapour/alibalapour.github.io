@@ -12,6 +12,10 @@ div #main {
     background: var("--backround-color");
 }
 
+ul .sub-category{
+	margin: 0 0 1em 0 !important;
+}
+
 html,
 body,
 div,
