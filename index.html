@@ -1,451 +1,217 @@
-<!DOCTYPE HTML>
-
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<title>Ali Balapour</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ali Balapour | PhD Student in Computer Science @ UBC</title>
+  <meta name="description" content="Ali Balapour is a UBC Computer Science PhD student working on medical AI, 3D computer vision, and computational biology." />
+  <meta name="theme-color" content="#0f172a" />
+  <meta property="og:title" content="Ali Balapour | UBC CS PhD" />
+  <meta property="og:description" content="Academic portfolio in medical AI, 3D computer vision, and computational biology." />
+  <meta property="og:type" content="website" />
+  <link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
+  <link rel="stylesheet" href="assets/css/main.css" />
 </head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-<body class="is-preload">
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#hero">Ali Balapour</a>
+      <nav aria-label="Primary">
+        <ul class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#projects">Open-source</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#awards">Honors</a></li>
+          <li><a href="#teaching">Teaching</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <i class="fas fa-moon" aria-hidden="true"></i>
+      </button>
+    </div>
+  </header>
 
-	<!-- Header -->
-	<section id="header">
-		<header>
-			<span class="image avatar"><img src="images/personal_photo.png" alt="" /></span>
-			<h1 id="logo"><i>Ali Balapour</i></h1>
-			<h6>Undergraduate Student</br>Sharif University of Technology</h6>
-		</header>
-		<nav id="nav">
-			<ul>
-				<li><a href="#about" class="active">About Me</a></li>
-				<li><a href="#education">Education</a></li>
-				<li><a href="#research">Research Experiences</a></li>
-				<li><a href="#teaching">Teaching Experiences</a></li>
-				<li><a href="#work">Work Experiences</a></li>
-				<li><a href="#accomplishments">Accomplishments</a></li>
-				<!-- <li><a href="#volunteer">Volunteer Experiences</a></li> -->
-			</ul>
-		</nav>
-		<footer>
-			<ul class="icons">
-				<li><a href="mailto:alibalapour93.ab@gmail.com" class="icon solid fa-envelope"><span
-							class="label">Email</span></a></li>
-				<li><a href="https://www.linkedin.com/in/alibalapour" class="icon brands fa-linkedin"><span
-							class="label">Linked In</span></a></li>
-				<li><a href="tel:+989029249917" class="icon solid fa-phone"><span class="label">Phone</span></a></li>
-				<li><a href="https://github.com/alibalapour" class="icon brands fa-github"><span
-							class="label">Github</span></a></li>
-			</ul>
-		</footer>
-	</section>
+  <main id="main">
+    <section id="hero" class="container hero-academic">
+      <img src="images/personal_photo.png" alt="Portrait of Ali Balapour" class="avatar" />
+      <div class="hero-content">
+        <p class="eyebrow">University of British Columbia · Vancouver, Canada</p>
+        <h1>Ali Balapour</h1>
+        <p class="hero-role">PhD Student, Computer Science</p>
+        <p class="lead">I am interested in medical AI systems that are useful in real clinical workflows. My current work sits at the interface of 3D computer vision, medical image analysis, and computational biology.</p>
+        <div class="hero-links" aria-label="External profiles">
+          <a href="https://github.com/alibalapour" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
+          <a href="https://scholar.google.com/citations?user=olk8Xe4AAAAJ&hl=en" target="_blank" rel="noopener"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
+          <a href="https://www.linkedin.com/in/alibalapour/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i> LinkedIn</a>
+          <a href="mailto:alibalapour93.ab@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+        </div>
+      </div>
+    </section>
 
-	<!-- Wrapper -->
-	<div id="wrapper">
+    <section id="about" class="container section">
+      <h2>About</h2>
+      <p>I am a PhD student in Computer Science at UBC, working on robust and clinically-grounded AI methods for healthcare. My research background combines computer vision, deep learning, and bioinformatics, with ongoing collaborations in medical image analysis and translational health research. Alongside research, I enjoy mentoring students and supporting academic communities through teaching and reviewing.</p>
+      <div class="grid two">
+        <article class="card">
+          <h3>Education</h3>
+          <ul class="clean-list">
+            <li><strong>Ph.D. in Computer Science</strong>, University of British Columbia</li>
+            <li><strong>M.Sc. in Bioinformatics</strong>, University of British Columbia (Sep 2023 – Aug 2025)</li>
+            <li><strong>B.Sc. in Computer Engineering</strong>, Sharif University of Technology (Sep 2018 – Jun 2023)</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Research Themes</h3>
+          <ul class="clean-list">
+            <li>3D reconstruction and shape analysis for medical decision support.</li>
+            <li>Domain adaptation and generalization on clinically heterogeneous data.</li>
+            <li>Representation learning for image-based computational biology tasks.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
 
-		<!-- Main -->
-		<div id="main">
+    <section id="research" class="container section">
+      <h2>Research Interests</h2>
+      <div class="chip-row" role="list" aria-label="Research areas">
+        <span class="chip" role="listitem">Medical AI</span>
+        <span class="chip" role="listitem">3D Computer Vision</span>
+        <span class="chip" role="listitem">Computational Biology</span>
+        <span class="chip" role="listitem">Medical Image Analysis</span>
+        <span class="chip" role="listitem">Domain Generalization</span>
+      </div>
+    </section>
 
-			<!-- about -->
-			<section id="about">
-				<div class="container">
-					<header class="major">
-						<h3><i>About Me</i></h3>
-					</header>
-					<p style="text-align:justify; text-justify:inter-ideograph;">
-						Hi! I'm Ali Balapour, a senior undergraduate student at the Sharif University of Technology. My
-						main research interests are deep learning and its applications in medical imaging,
-						bioinformatics, natural language processing, and interior design. <br>
-						I want to broaden my knowledge and experience in mentioned areas by learning theoretical aspects
-						and developing experimental sides of these methods in real-life problems. The majority of my
-						experiences were on the practical side, and I enjoyed implementing and tuning DL and ML models.
-						It's worth mentioning that I am an ML engineer in a tech company, and I have valuable experience
-						in the ML industry. <br>
-						My research goal is to propose innovative applications to solve current problems in computer
-						vision and NLP, focusing on medical applications.
-					</p>
-				</div>
-			</section>
+    <section id="projects" class="container section">
+      <h2>Public-good Open-source Projects</h2>
+      <div class="grid three">
+        <article class="card project">
+          <h3><a href="https://github.com/alibalapour/Compact-SiT" target="_blank" rel="noopener">Compact-SiT</a></h3>
+          <p>Compact vision transformer experiments and utilities for practical model development.</p>
+        </article>
+        <article class="card project">
+          <h3><a href="https://github.com/alibalapour/Data-Pruning" target="_blank" rel="noopener">Data-Pruning</a></h3>
+          <p>Data pruning experiments for efficient training and reduced computational overhead.</p>
+        </article>
+        <article class="card project">
+          <h3><a href="https://github.com/alibalapour/Image-Classification-Template" target="_blank" rel="noopener">Image-Classification-Template</a></h3>
+          <p>A reusable training template for image classification research and rapid prototyping.</p>
+        </article>
+        <article class="card project">
+          <h3><a href="https://github.com/alibalapour/Foundation-TransMIL" target="_blank" rel="noopener">Foundation-TransMIL</a></h3>
+          <p>Foundation-model-inspired extensions and workflows for multiple-instance learning settings.</p>
+        </article>
+        <article class="card project">
+          <h3><a href="https://github.com/alibalapour/Pix2Seq-for-Keypoint-Detection" target="_blank" rel="noopener">Pix2Seq-for-Keypoint-Detection</a></h3>
+          <p>Sequence-based keypoint detection implementation and experimentation toolkit.</p>
+        </article>
+      </div>
+    </section>
 
-			<!-- education -->
-			<section id="education">
-				<div class="container">
-					<header class="major">
-						<h3><i>Education</i></h3>
-					</header>
-					<h4>
-						<i>Bachelor of Science, Computer Engineering</i>
-					</h4>
-					<h5>
-						Sharif University of Technology, Tehran, Iran
-					</h5>
-					<h6>
-						September 2018 - February 2023
-					</h6>
-					<p>
-					<ul>
-						<li> Overall GPA: 18.09 out of 20 (3.79 out of 4)</li>
-						<li> Major GPA: 18.5 out of 20 (3.92 out of 4)</li>
-						<li> Thesis: A Review on Domain Adaptation Methods on Brain Signals</li>
-						<li> Thesis Advisor: Prof. H.R. Rabiee</li>
-					</ul>
-					</p>
-					<h4>
-						<i>High School Diploma in Mathematics and Physics</i>
-					</h4>
-					<h5>
-						Allameh Jafari, Marand, Iran
-					</h5>
-					<h6>
-						September 2014 - June 2018
-					</h6>
-					<p>
-					<ul>
-						<li> GPA: 19.68 out of 20 (4 out of 4)</li>
-						<li> National Organization for Development of Exceptional Talents</li>
-					</ul>
-					</p>
-				</div>
-			</section>
+    <section id="publications" class="container section">
+      <h2>Selected Publications</h2>
+      <ol class="pub-list">
+        <li>
+          <p><strong>AI Driven 3D Assessment for Peyronie’s Disease</strong><br />
+            <strong>Ali Balapour</strong>, Eric Jumaga, Ryan Flannigan, Faraz Hach · <span class="venue">The Journal of Sexual Medicine</span> (2025) · <a href="https://doi.org/10.1093/jsxmed/qdaf315" target="_blank" rel="noopener">DOI</a></p>
+        </li>
+        <li>
+          <p><strong>PenoMeter: A Machine Learning and Algorithmic Tool to Advance Peyronie’s Disease Assessment</strong><br />
+            Reza Soltani*, <strong>Ali Balapour*</strong>, Luke Witherspoon, Abdulla Alhamam, Ryan Flannigan, Faraz Hach · <span class="venue">The Journal of Sexual Medicine</span> (2025) · <a href="https://doi.org/10.1093/jsxmed/qdaf016" target="_blank" rel="noopener">DOI</a></p>
+        </li>
+        <li>
+          <p><strong>Domain Adaptation and Generalization on Functional Medical Images: A Systematic Survey</strong><br />
+            Gita Sarafraz*, Armin Behnamnia*, Mehran Hosseinzadeh*, <strong>Ali Balapour*</strong>, Amin Meghrazi*, Hamid R. Rabiee · <span class="venue">arXiv</span> (2022) · <a href="https://arxiv.org/abs/2212.03176" target="_blank" rel="noopener">arXiv</a></p>
+        </li>
+      </ol>
+    </section>
 
-			<!-- research -->
-			<section id="research">
-				<div class="container">
-					<header class="major">
-						<h3><i>Research Experiences</i></h3>
-					</header>
-					<h4>
-						<i>Research Assistant</i>
-					</h4>
-					<h5>
-						Data Science and Machine Learning Lab, Sharif University of Technology, Tehran, Iran
-					</h5>
-					<h6>
-						April 2022 - Present
-					</h6>
-					<p>
+    <section id="awards" class="container section">
+      <h2>Awards & Honors</h2>
+      <div class="grid two">
+        <article class="card">
+          <h3>Research Awards</h3>
+          <ul class="clean-list">
+            <li>Michael Smith + Mitacs Award Internship (May 2025 – Apr 2026)</li>
+            <li>NSERC-CREATE MUSIC Trainee Support (2025–2027)</li>
+            <li>Canadian Bioinformatics Hub Training Award</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Recognition</h3>
+          <ul class="clean-list">
+            <li>Best Poster Award, UBC CS Student Research Conference 26 (Feb 2026)</li>
+            <li>Ranked 96th among 150K participants in Iran’s National Entrance Exam</li>
+          </ul>
+        </article>
+      </div>
+    </section>
 
-						In April 2022, I joined Multimedia Systems and Complex Networks in the <a href="http://dml.ir/"
-							target="_blank"><b>Data Science and Machine Learning Lab</b></a> as a research assistant
-						under the supervision of <a href="https://scholar.google.com/citations?user=rKDtrNgAAAAJ&hl=en"
-							target="_blank">Prof. Rabiee</a>. One of our projects in the group is reviewing recent
-						domain adaptation and domain generalization methods on functional brain data (like EEG signals,
-						fMRI, etc.) and providing a survey paper in this field. My main role is reading and
-						comprehending new papers in this area, gathering information about datasets and implementations,
-						and preparing infrastructure to organize papers and data efficiently. Our work is undergoing,
-						and we are expected to publish a high-quality paper soon. <br>
-						In this project, I've learned about different approaches that can be used to solve the domain
-						shift problem among distributions. For instance, domain adaptation or generalization can be
-						achieved by using meta-learning and self-supervised learning (which are relatively hot topics in
-						deep learning). Speaking about soft skills, I've gained experience in <b>team-working</b>, and
-						I've
-						learned that <b>patience</b>, <b>punctuality</b>, and <b>discipline</b> are the most important
-						attributes a
-						researcher should have.
-					</p>
-					<h4>
-						<i>Research Assistant</i>
-					</h4>
-					<h5>
-						Robust and Interpretable Machine Learning Lab, Sharif University of Technology, Tehran, Iran
-					</h5>
-					<h6>
-						September 2021 - Present
-					</h6>
-					<p>
-						In September 2021, I joined the medical image analysis group in the <b>Robust and Interpretable
-							Machine Learning lab</b> as a research
-						assistant under the supervision of <a
-							href="https://scholar.google.com/citations?hl=en&user=pRyJ6FkAAAAJ&view_op=list_works&sortby=pubdate"
-							target="_blank">Prof. Rohban</a>. I had two projects in the lab. The first was
-						using novel <b>self-supervised methods on pathology images</b> and pre-training a powerful and
-						compact
-						pre-trained model to perform well on downstream tasks. The results are decent, but there is
-						room for improvement. The SOTA model got 95.82% Macro-F1 score on NCT-CRC dataset, while we
-						reached 95.04% Macro-F1 with much fewer parameters.<br>
-						In the second project, I developed a model for <b>recognizing acute lymphoblastic cells in blood
-							smear images</b>. Our model's performance was fine on ALL-IDB (a well-known dataset) and
-						reached 90%
-						ACC in zero-shot and 96% ACC in few-shot training. <br>
-						We will publish the GitHub repository of both projects in the near future.
-					</p>
-				</div>
-			</section>
+    <section id="teaching" class="container section">
+      <h2>Teaching & Mentoring</h2>
+      <div class="grid two">
+        <article class="card">
+          <h3>Teaching Assistant Experience</h3>
+          <ul>
+            <li>BIOF 520: Problem-based Learning in Bioinformatics (Jan 2025 – Apr 2025)</li>
+            <li>DSCI 513: Databases and Data Retrieval (Nov 2024 – Dec 2024)</li>
+            <li>DSCI 521: Computing Platforms for Data Science (Sep 2024 – Oct 2024)</li>
+            <li>DSCI 572: Supervised Learning II (Jan 2024 – Feb 2024)</li>
+            <li>CPEN 442: Introduction to Cybersecurity (Sep 2023 – Dec 2023)</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Mentoring & Service</h3>
+          <ul>
+            <li>Mentor, UBC Persian Club Mentorship Program</li>
+            <li>Mentor, UBC Bioinformatics Group Program</li>
+            <li>Sub-reviewer: RECOMB 2025, RECOMB-seq 2024, RECOMB 2024</li>
+            <li>Reviewer: UJEMI+ Conference (2024)</li>
+          </ul>
+        </article>
+      </div>
+    </section>
 
-			<!-- teaching -->
-			<section id="teaching">
-				<div class="container">
-					<header class="major">
-						<h3><i>Teaching Experiences</i></h3>
-					</header>
-					<h4>
-						<i>Teaching Assistant</i>
-					</h4>
-					<h5>
-						Sharif University of Technology, Tehran, Iran
-					</h5>
-					<h6>
-						Fall 2020 - Present
-					</h6>
-					<ul>
-						​<li><b>Artificial Intelligence</b> - Dr. Rohban - Fall 2022 <br>
-							<ul class="sub-category">
-								<li>
-									Presenting a tutorial workshop about Python, Numpy, and PyTorch
-								</li>
-								<li>
-									Designing a question for a homework with subject of "Neural networks"
-								</li>
-							</ul>
-						</li>
-						<li><b>Modern Information Retrieval</b> - Dr. Asgari - Spring 2022</li>
-						<ul class="sub-category">
-							<li>
-								Providing a proposal for course project (about an information retrieval system on
-								scientific papers)
-							</li>
-							<li>
-								Grading and reviewing students projects, and mentoring them during the project
-							</li>
-							<li>
-								Grading final exams of students
-							</li>
-							<li>
-								Designing and grading 3 homeworks with this topics:
-								<ul class="sub-category">
-									<li>
-										A simple IR system
-									</li>
-									<li>
-										Classification and Clustering on text data
-									</li>
-									<li>
-										Link Analysis
-									</li>
-								</ul>
-							</li>
-						</ul>
-						<li><b>Linear Algebra</b> - Prof. Rabiee, Ramezani - Spring 2022
-							<ul class="sub-category">
-								<li>
-									Designing and grading a homework about least squares
-								</li>
-								<li>
-									Holding a tutorial workshop about PyTorch in Linear Algebra
-								</li>
-							</ul>
-						</li>
-						<li><b>Modern Information Retrieval</b> - Dr. Lashkari - Fall 2021
-							<ul class="sub-category">
-								<li>
-									Designing a project about Classification and Clustering on documents, and Link
-									Analysis
-								</li>
-								<li>
-									Proposing questions for quiz
-								</li>
-							</ul>
-						</li>
-						<li><b>Linear Algebra</b> - Dr. Hossein Ghorban - Fall 2021
-							<ul class="sub-category">
-								<li>
-									Designing a course project about graph classification for student (implementing a
-									section
-									of <a
-										href="https://research.ibm.com/publications/gl2vec-learning-feature-representation-using-graphlets-for-directed-networks">this
-										paper</a>)
-								</li>
-							</ul>
-						</li>
-						<li><b>Linear Algebra</b> - Prof. Rabiee, Ramezani - Fall 2021
-							<ul class="sub-category">
-								<li>
-									Designing a project about recommender systems with using decompositions
-								</li>
-								<li>
-									Holding a tutorial workshop about PyTorch in Linear Algebra
-								</li>
-							</ul>
-						</li>
-						<li><b>Engineering Statistics and Probability</b> - Dr. Omidvar - Spring 2021
-							<ul class="sub-category">
-								<li>
-									Designing a homework about random variables
-								</li>
-								<li>
-									Proposing questions for final exam
-								</li>
-							</ul>
-						</li>
-						<li><b>Linear Algebra</b> - Dr. Hossein Ghorban- Spring 2021
-							<ul class="sub-category">
-								<li>
-									Designing a project about Kernel Perceptrons
-								</li>
-							</ul>
-						</li>
-						<li><b>Engineering Probability and Statistics</b> - Prof. A. Sharifi - Fall 2020
-							<ul class="sub-category">
-								<li>
-									Designing a homework about random variables
-								</li>
-								<li>
-									Proposing questions for final exam
-								</li>
-								<li>
-									Designing a quiz
-								</li>
-							</ul>
-						</li>
-					</ul>
-				</div>
-			</section>
+    <section id="links" class="container section">
+      <h2>CV & Profiles</h2>
+      <div class="card">
+        <div class="hero-links">
+          <a href="https://drive.google.com/file/d/1Gym3_Jk5zeFhWpyBeWrCRLhkaXOsLiTP/view?usp=sharing" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> Download CV</a>
+          <a href="https://scholar.google.com/citations?user=olk8Xe4AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+          <a href="https://github.com/alibalapour" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/in/alibalapour/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </section>
 
-			<!-- work -->
-			<section id="work">
-				<div class="container">
-					<header class="major">
-						<h3><i>Work Experiences</i></h3>
-					</header>
-					<h4>
-						<i>Junior Machine Learning Engineer</i>
-					</h4>
-					<h5>
-						SD Studio, Tehran, Iran
-					</h5>
-					<h6>
-						August 2022 - Present
-					</h6>
-					<p>
-						In August, I joined to SD Studio startup as a full-time machine learning engineer. We use
-						machine learning models for image enhancement, object removal, scene classification, and 3D
-						scene understanding. I'm in the R&D section of AI team, So, I have great opportunities to learn
-						about novel SOTA models in the trend areas like self-supervised learning, vision-transformers,
-						etc.
-					</p>
-					<h4>
-						<i>Intern</i>
-					</h4>
-					<h5>
-						Hesaba, Tehran, Iran
-					</h5>
-					<h6>
-						September 2020 - November 2020
-					</h6>
-					<p>
-						Experienced and learned about the essential concepts of Data Science in a three-month
-						internship. I’ve learned about R programming language, how to be a good data scientist, how to
-						visualize data, how to manage data in R, how to use ML models and interpret them, how to write
-						an R package, how to use R for NLP purposes and similar concepts.
-					</p>
-				</div>
-			</section>
+    <section id="contact" class="container section">
+      <h2>Contact</h2>
+      <p>For research collaboration, mentorship, or speaking invitations, feel free to reach out by email.</p>
+      <p><a class="contact-link" href="mailto:alibalapour93.ab@gmail.com">alibalapour93.ab@gmail.com</a></p>
+    </section>
+  </main>
 
-			<!-- Online Courses and Certificates -->
-			<section id="accomplishments">
-				<div class="container">
-					<header class="major">
-						<h3><i>Online Courses & Certificates</i></h3>
-					</header>
-					<h4>
-						<a href="https://www.coursera.org/account/accomplishments/specialization/W8R3VFJXQNXG"
-							target="_blank"><i>Deep Learning Specialization</i></a>
-					</h4>
-					<h5>
-						Coursera
-					</h5>
-					<p></p>
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Ali Balapour · UBC Computer Science</p>
+    </div>
+  </footer>
 
-					<h4>
-						<a href="https://quera.org/media/public/quera_certificate/adadd816d5624135890eb60e2756e7e7.jpg"
-							target="_blank"><i>Task-Oriented Course in Artificial Intelligence and Machine
-								Learning</i></a>
-					</h4>
-					<h5>
-						Quera
-					</h5>
-					<p></p>
-
-					<h4>
-						<a href="https://drive.google.com/file/d/1MrYCCndqgRuBNSRscO7mLyGm1pDVqrYC/view?usp=sharing"
-							target="_blank"><i>Theoretical Aspects of Data Science and Machine Learning Summer
-								School</i></a>
-					</h4>
-					<h5>
-						Tehran Institute for Advanced Studies (TeIAS)
-					</h5>
-					<p></p>
-
-					<h4>
-						<a href="https://drive.google.com/file/d/1-g7t7JsqnXXrmySD3a8m09prYNb7P3v8/view?usp=sharing"
-							target="_blank"><i>Fifth IPM Advanced School on Computing & Artificial Intelligence</i></a>
-					</h4>
-					<h5>
-						Institute for Research in Fundamental Sciences (IPM)
-					</h5>
-				</div>
-			</section>
-
-			<!-- volunteer -->
-			<!-- <section id="volunteer">
-				<div class="container">
-					<header class="major">
-						<h3><i>Volunteer Experiences</i></h3>
-					</header>
-					<h4>
-						​<i>Media & Design Staff</i>
-					</h4>
-					<h5>
-						Webelopers 2022
-					</h5>
-					<h6>
-						August 2022 - Present
-					</h6>
-					<p>
-						As I've some experiences with working as a layout designer, I joined to Media & Design team of Webelopers event which is holding by Computer engineering Scientific 	
-					</p>
-					
-					<h4>
-						<i>Layout Designer & Member of Editorial Board </i>
-					</h4>
-					<h5>
-						Harakat (Student Magazine)
-					</h5>
-					<h6>
-						September 2020 - September 2021
-					</h6>
-					<p>
-						In September 2020 I joined to a student sport magazine which was organized by a group of sport enthusiast sudents. My role was desining layout of the magazine with Adobe InDesign.
-						I've gained many vaueable experiences in team-working, responsibility, and digital design.  
-					</p>
-				</div>
-			</section> -->
-
-		</div>
-
-		<!-- Footer -->
-		<section id="footer">
-			<div class="container">
-				<ul class="copyright">
-					<li>&copy; Ali Balapour. All rights reserved.</li>
-					<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-				</ul>
-			</div>
-		</section>
-
-	</div>
-
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.scrollex.min.js"></script>
-	<script src="assets/js/jquery.scrolly.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
-
+  <script>
+    const root = document.documentElement;
+    const toggle = document.getElementById('theme-toggle');
+    const storedTheme = localStorage.getItem('theme');
+    if (storedTheme) root.dataset.theme = storedTheme;
+    toggle.addEventListener('click', () => {
+      const next = root.dataset.theme === 'dark' ? 'light' : 'dark';
+      root.dataset.theme = next;
+      localStorage.setItem('theme', next);
+    });
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
-
 </html>
