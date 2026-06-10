@@ -5,3 +5,15 @@ disableKinds = ["taxonomy", "term", "RSS", "sitemap"]
 
 [params]
 description = "Ali Balapour is a UBC Computer Science PhD student working on medical AI, 3D computer vision, and computational biology."
+
+[[module.mounts]]
+source = "static"
+target = "static"
+
+[[module.mounts]]
+source = "assets/css/side-pages.css"
+target = "static/assets/css/side-pages.css"
+
+[[module.mounts]]
+source = "assets/js/site.js"
+target = "static/assets/js/site.js"
