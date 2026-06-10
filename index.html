@@ -1,210 +1,292 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Ali Balapour | PhD Student in Computer Science @ UBC</title>
-  <meta name="description" content="Ali Balapour is a UBC Computer Science PhD student working on medical AI, 3D computer vision, and computational biology." />
-  <meta name="theme-color" content="#0f172a" />
-  <meta property="og:title" content="Ali Balapour | UBC CS PhD" />
-  <meta property="og:description" content="Academic portfolio in medical AI, 3D computer vision, and computational biology." />
-  <meta property="og:type" content="website" />
-  <link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
-  <link rel="stylesheet" href="assets/css/main.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ali Balapour | Medical AI Researcher</title>
+  <meta name="description" content="Ali Balapour is a UBC Computer Science PhD student working on medical AI, 3D computer vision, and computational biology.">
+  <meta name="theme-color" content="#102b2b">
+  <meta property="og:title" content="Ali Balapour | Medical AI Researcher">
+  <meta property="og:description" content="Research at the intersection of medical AI, 3D computer vision, and computational biology.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/site.css">
+  <script src="assets/js/site.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
 
-  <header class="site-header">
-    <div class="container nav-wrap">
-      <a class="brand" href="#hero">Ali Balapour</a>
-      <nav aria-label="Primary">
-        <ul class="nav-list">
-          <li><a href="#about">About</a></li>
-          <li><a href="#research">Research</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#publications">Publications</a></li>
-          <li><a href="#awards">Honors</a></li>
-          <li><a href="#teaching">Teaching</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-      <button id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
-        <i class="fas fa-moon" aria-hidden="true"></i>
+  <header class="site-header" data-header>
+    <div class="shell nav-wrap">
+      <a class="brand" href="#top" aria-label="Ali Balapour, home">
+        <span class="brand-mark">AB</span>
+        <span>Ali Balapour</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" data-menu-toggle>
+        <span></span><span></span>
+        <span class="sr-only">Toggle navigation</span>
       </button>
+      <nav id="primary-nav" class="primary-nav" aria-label="Primary" data-nav>
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#publications">Publications</a>
+        <a href="#experience">Experience</a>
+        <a class="nav-cta" href="https://drive.google.com/file/d/1Gym3_Jk5zeFhWpyBeWrCRLhkaXOsLiTP/view?usp=sharing" target="_blank" rel="noopener">View CV <span aria-hidden="true">↗</span></a>
+      </nav>
     </div>
   </header>
 
   <main id="main">
-    <section id="hero" class="container hero-academic">
-      <img src="images/personal_photo.png" alt="Portrait of Ali Balapour" class="avatar" />
-      <div class="hero-content">
-        <p class="eyebrow">University of British Columbia · Vancouver, Canada</p>
-        <h1>Ali Balapour</h1>
-        <p class="hero-role">PhD Student, Computer Science</p>
-        <p class="lead">I am interested in medical AI systems that are useful in real clinical workflows. My current work sits at the interface of 3D computer vision, medical image analysis, and computational biology.</p>
-        <div class="hero-links" aria-label="External profiles">
-          <a href="https://github.com/alibalapour" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
-          <a href="https://scholar.google.com/citations?user=olk8Xe4AAAAJ&hl=en" target="_blank" rel="noopener"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
-          <a href="https://www.linkedin.com/in/alibalapour/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i> LinkedIn</a>
+    <section id="top" class="hero">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="shell hero-grid">
+        <div class="hero-copy">
+          <p class="kicker reveal">University of British Columbia</p>
+          <h1 class="reveal reveal-delay-1">Ali Balapour</h1>
+          <p class="hero-role reveal reveal-delay-2">PhD Student in Computer Science</p>
+          <p class="hero-intro reveal reveal-delay-2">My research interests include medical AI, 3D computer vision, medical image analysis, and computational biology.</p>
+          <div class="hero-actions reveal reveal-delay-3">
+            <a class="button button-primary" href="#publications">Explore my research <span aria-hidden="true">↓</span></a>
+            <a class="text-link" href="https://scholar.google.com/citations?user=olk8Xe4AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+
+        <div class="portrait-wrap reveal reveal-delay-2">
+          <div class="portrait-frame">
+            <img src="images/personal_photo.png" alt="Portrait of Ali Balapour" width="2408" height="2408">
+          </div>
+          <div class="portrait-note">
+            <span class="status-dot" aria-hidden="true"></span>
+            <span>Based in Vancouver, Canada</span>
+          </div>
+          <div class="portrait-orbit" aria-hidden="true">AI · VISION · HEALTH ·</div>
+        </div>
+      </div>
+      <div class="shell research-strip" aria-label="Research areas">
+        <span>Research focus</span>
+        <ul>
+          <li>Medical AI</li>
+          <li>3D Vision</li>
+          <li>Computational Biology</li>
+          <li>Domain Generalization</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="about" class="section section-light">
+      <div class="shell split-layout">
+        <div class="section-heading">
+          <p class="section-index">01 / About</p>
+          <h2>About me</h2>
+        </div>
+        <div class="about-copy">
+        <p class="large-copy">I am a PhD student in Computer Science at UBC, working on AI methods for healthcare.</p>
+          <p>My background combines computer vision, deep learning, and bioinformatics, alongside ongoing collaborations in medical image analysis and translational health research. I also enjoy mentoring students and supporting academic communities through teaching and reviewing.</p>
+          <div class="education-list">
+            <article>
+              <span class="year">Current</span>
+              <div>
+                <h3>Ph.D. in Computer Science</h3>
+                <p>University of British Columbia</p>
+              </div>
+            </article>
+            <article>
+              <span class="year">2023—25</span>
+              <div>
+                <h3>M.Sc. in Bioinformatics</h3>
+                <p>University of British Columbia</p>
+              </div>
+            </article>
+            <article>
+              <span class="year">2018—23</span>
+              <div>
+                <h3>B.Sc. in Computer Engineering</h3>
+                <p>Sharif University of Technology</p>
+              </div>
+            </article>
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="about" class="container section">
-      <h2>About</h2>
-      <p>I am a PhD student in Computer Science at UBC, working on robust and clinically-grounded AI methods for healthcare. My research background combines computer vision, deep learning, and bioinformatics, with ongoing collaborations in medical image analysis and translational health research. Alongside research, I enjoy mentoring students and supporting academic communities through teaching and reviewing.</p>
-      <div class="grid two">
-        <article class="card">
-          <h3>Education</h3>
-          <ul class="clean-list">
-            <li><strong>Ph.D. in Computer Science</strong>, University of British Columbia</li>
-            <li><strong>M.Sc. in Bioinformatics</strong>, University of British Columbia (Sep 2023 – Aug 2025)</li>
-            <li><strong>B.Sc. in Computer Engineering</strong>, Sharif University of Technology (Sep 2018 – Jun 2023)</li>
-          </ul>
-        </article>
-        <article class="card">
-          <h3>Research Themes</h3>
-          <ul class="clean-list">
-            <li>3D reconstruction and shape analysis for medical decision support.</li>
-            <li>Domain adaptation and generalization on clinically heterogeneous data.</li>
-            <li>Representation learning for image-based computational biology tasks.</li>
-          </ul>
-        </article>
+    <section id="work" class="section section-ink">
+      <div class="shell">
+        <div class="section-title-row">
+          <div>
+            <p class="section-index">02 / Selected work</p>
+            <h2>Open-source projects</h2>
+          </div>
+          <a class="text-link text-link-light" href="https://github.com/alibalapour" target="_blank" rel="noopener">All repositories <span aria-hidden="true">↗</span></a>
+        </div>
+
+        <div class="project-grid">
+          <a class="project-card project-featured" href="https://github.com/alibalapour/Compact-SiT" target="_blank" rel="noopener">
+            <span class="project-number">01</span>
+            <div>
+              <p class="project-type">Vision transformers</p>
+              <h3>Compact-SiT</h3>
+              <p>Compact vision transformer experiments and utilities for practical model development.</p>
+            </div>
+            <span class="card-arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="project-card" href="https://github.com/alibalapour/Data-Pruning" target="_blank" rel="noopener">
+            <span class="project-number">02</span>
+            <div>
+              <p class="project-type">Efficient learning</p>
+              <h3>Data-Pruning</h3>
+              <p>Data pruning experiments for efficient training and reduced computational overhead.</p>
+            </div>
+            <span class="card-arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="project-card" href="https://github.com/alibalapour/Foundation-TransMIL" target="_blank" rel="noopener">
+            <span class="project-number">03</span>
+            <div>
+              <p class="project-type">Multiple-instance learning</p>
+              <h3>Foundation-TransMIL</h3>
+              <p>Foundation-model-inspired workflows for multiple-instance learning settings.</p>
+            </div>
+            <span class="card-arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="project-card" href="https://github.com/alibalapour/Pix2Seq-for-Keypoint-Detection" target="_blank" rel="noopener">
+            <span class="project-number">04</span>
+            <div>
+              <p class="project-type">Keypoint detection</p>
+              <h3>Pix2Seq</h3>
+              <p>A sequence-based keypoint detection implementation and experimentation toolkit.</p>
+            </div>
+            <span class="card-arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="project-card" href="https://github.com/alibalapour/Image-Classification-Template" target="_blank" rel="noopener">
+            <span class="project-number">05</span>
+            <div>
+              <p class="project-type">Research tooling</p>
+              <h3>Classification Template</h3>
+              <p>A reusable training template for image classification research and rapid prototyping.</p>
+            </div>
+            <span class="card-arrow" aria-hidden="true">↗</span>
+          </a>
+        </div>
       </div>
     </section>
 
-    <section id="research" class="container section">
-      <h2>Research Interests</h2>
-      <div class="chip-row" role="list" aria-label="Research areas">
-        <span class="chip" role="listitem">Medical AI</span>
-        <span class="chip" role="listitem">3D Computer Vision</span>
-        <span class="chip" role="listitem">Computational Biology</span>
-        <span class="chip" role="listitem">Medical Image Analysis</span>
-        <span class="chip" role="listitem">Domain Generalization</span>
+    <section id="publications" class="section section-paper">
+      <div class="shell">
+        <div class="section-title-row">
+          <div>
+            <p class="section-index">03 / Publications</p>
+            <h2>Selected research</h2>
+          </div>
+          <p class="title-aside">* Equal contribution</p>
+        </div>
+
+        <div class="publication-list">
+          <article class="publication">
+            <div class="pub-meta">
+              <span>2025</span>
+              <span>Journal article</span>
+            </div>
+            <div class="pub-content">
+              <h3>AI Driven 3D Assessment for Peyronie’s Disease</h3>
+              <p><strong>Ali Balapour</strong>, Eric Jumaga, Ryan Flannigan, Faraz Hach</p>
+              <p class="venue">The Journal of Sexual Medicine</p>
+            </div>
+            <a class="pub-link" href="https://doi.org/10.1093/jsxmed/qdaf315" target="_blank" rel="noopener" aria-label="Open publication DOI">DOI <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="publication">
+            <div class="pub-meta">
+              <span>2025</span>
+              <span>Journal article</span>
+            </div>
+            <div class="pub-content">
+              <h3>PenoMeter: A Machine Learning and Algorithmic Tool to Advance Peyronie’s Disease Assessment</h3>
+              <p>Reza Soltani*, <strong>Ali Balapour*</strong>, Luke Witherspoon, Abdulla Alhamam, Ryan Flannigan, Faraz Hach</p>
+              <p class="venue">The Journal of Sexual Medicine</p>
+            </div>
+            <a class="pub-link" href="https://doi.org/10.1093/jsxmed/qdaf016" target="_blank" rel="noopener" aria-label="Open publication DOI">DOI <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="publication">
+            <div class="pub-meta">
+              <span>2022</span>
+              <span>Survey</span>
+            </div>
+            <div class="pub-content">
+              <h3>Domain Adaptation and Generalization on Functional Medical Images: A Systematic Survey</h3>
+              <p>Gita Sarafraz*, Armin Behnamnia*, Mehran Hosseinzadeh*, <strong>Ali Balapour*</strong>, Amin Meghrazi*, Hamid R. Rabiee</p>
+              <p class="venue">arXiv</p>
+            </div>
+            <a class="pub-link" href="https://arxiv.org/abs/2212.03176" target="_blank" rel="noopener" aria-label="Open publication on arXiv">arXiv <span aria-hidden="true">↗</span></a>
+          </article>
+        </div>
       </div>
     </section>
 
-    <section id="projects" class="container section">
-      <h2>Projects</h2>
-      <div class="grid three">
-        <article class="card project">
-          <h3><a href="https://github.com/alibalapour/Compact-SiT" target="_blank" rel="noopener">Compact-SiT</a></h3>
-          <p>Compact vision transformer experiments and utilities for practical model development.</p>
-        </article>
-        <article class="card project">
-          <h3><a href="https://github.com/alibalapour/Data-Pruning" target="_blank" rel="noopener">Data-Pruning</a></h3>
-          <p>Data pruning experiments for efficient training and reduced computational overhead.</p>
-        </article>
-        <article class="card project">
-          <h3><a href="https://github.com/alibalapour/Image-Classification-Template" target="_blank" rel="noopener">Image-Classification-Template</a></h3>
-          <p>A reusable training template for image classification research and rapid prototyping.</p>
-        </article>
-        <article class="card project">
-          <h3><a href="https://github.com/alibalapour/Foundation-TransMIL" target="_blank" rel="noopener">Foundation-TransMIL</a></h3>
-          <p>Foundation-model-inspired extensions and workflows for multiple-instance learning settings.</p>
-        </article>
-        <article class="card project">
-          <h3><a href="https://github.com/alibalapour/Pix2Seq-for-Keypoint-Detection" target="_blank" rel="noopener">Pix2Seq-for-Keypoint-Detection</a></h3>
-          <p>Sequence-based keypoint detection implementation and experimentation toolkit.</p>
-        </article>
+    <section id="experience" class="section section-light">
+      <div class="shell">
+        <div class="section-title-row">
+          <div>
+            <p class="section-index">04 / Experience</p>
+            <h2>Teaching, service & recognition</h2>
+          </div>
+        </div>
+
+        <div class="experience-grid">
+          <article class="experience-card awards-card">
+            <span class="experience-label">Selected honors</span>
+            <ul>
+              <li><span>2026</span><strong>Best Poster Award</strong><small>UBC CS Student Research Conference 26</small></li>
+              <li><span>2025—27</span><strong>NSERC-CREATE MUSIC</strong><small>Trainee Support</small></li>
+              <li><span>2025—26</span><strong>Michael Smith + Mitacs</strong><small>Award Internship</small></li>
+              <li><span>Award</span><strong>Canadian Bioinformatics Hub</strong><small>Training Award</small></li>
+              <li><span>National</span><strong>Ranked 96th of 150K</strong><small>Iran’s National Entrance Exam</small></li>
+            </ul>
+          </article>
+
+          <article class="experience-card">
+            <span class="experience-label">Teaching assistant</span>
+            <ul>
+              <li><span>2025</span><strong>BIOF 520</strong><small>Problem-based Learning in Bioinformatics</small></li>
+              <li><span>2024</span><strong>DSCI 513</strong><small>Databases and Data Retrieval</small></li>
+              <li><span>2024</span><strong>DSCI 521</strong><small>Computing Platforms for Data Science</small></li>
+              <li><span>2024</span><strong>DSCI 572</strong><small>Supervised Learning II</small></li>
+              <li><span>2023</span><strong>CPEN 442</strong><small>Introduction to Cybersecurity</small></li>
+            </ul>
+          </article>
+
+          <article class="experience-card service-card">
+            <span class="experience-label">Mentoring & service</span>
+            <ul>
+              <li><span>Mentor</span><strong>UBC Persian Club</strong><small>Mentorship Program</small></li>
+              <li><span>Mentor</span><strong>UBC Bioinformatics Group</strong><small>Mentorship Program</small></li>
+              <li><span>Reviewer</span><strong>RECOMB</strong><small>2024, RECOMB-seq 2024, RECOMB 2025</small></li>
+              <li><span>Reviewer</span><strong>UJEMI+ Conference</strong><small>2024</small></li>
+            </ul>
+          </article>
+        </div>
       </div>
     </section>
 
-    <section id="publications" class="container section">
-      <h2>Selected Publications</h2>
-      <ol class="pub-list">
-        <li>
-          <p><strong>AI Driven 3D Assessment for Peyronie’s Disease</strong><br />
-            <strong>Ali Balapour</strong>, Eric Jumaga, Ryan Flannigan, Faraz Hach · <span class="venue">The Journal of Sexual Medicine</span> (2025) · <a href="https://doi.org/10.1093/jsxmed/qdaf315" target="_blank" rel="noopener">DOI</a></p>
-        </li>
-        <li>
-          <p><strong>PenoMeter: A Machine Learning and Algorithmic Tool to Advance Peyronie’s Disease Assessment</strong><br />
-            Reza Soltani*, <strong>Ali Balapour*</strong>, Luke Witherspoon, Abdulla Alhamam, Ryan Flannigan, Faraz Hach · <span class="venue">The Journal of Sexual Medicine</span> (2025) · <a href="https://doi.org/10.1093/jsxmed/qdaf016" target="_blank" rel="noopener">DOI</a></p>
-        </li>
-        <li>
-          <p><strong>Domain Adaptation and Generalization on Functional Medical Images: A Systematic Survey</strong><br />
-            Gita Sarafraz*, Armin Behnamnia*, Mehran Hosseinzadeh*, <strong>Ali Balapour*</strong>, Amin Meghrazi*, Hamid R. Rabiee · <span class="venue">arXiv</span> (2022) · <a href="https://arxiv.org/abs/2212.03176" target="_blank" rel="noopener">arXiv</a></p>
-        </li>
-      </ol>
-    </section>
-
-    <section id="awards" class="container section">
-      <h2>Awards & Honors</h2>
-      <div class="grid two">
-        <article class="card">
-          <h3>Research Awards</h3>
-          <ul class="clean-list">
-            <li>Michael Smith + Mitacs Award Internship (May 2025 – Apr 2026)</li>
-            <li>NSERC-CREATE MUSIC Trainee Support (2025–2027)</li>
-            <li>Canadian Bioinformatics Hub Training Award</li>
-          </ul>
-        </article>
-        <article class="card">
-          <h3>Recognition</h3>
-          <ul class="clean-list">
-            <li>Best Poster Award, UBC CS Student Research Conference 26 (Feb 2026)</li>
-            <li>Ranked 96th among 150K participants in Iran’s National Entrance Exam</li>
-          </ul>
-        </article>
-      </div>
-    </section>
-
-    <section id="teaching" class="container section">
-      <h2>Teaching & Mentoring</h2>
-      <div class="grid two">
-        <article class="card">
-          <h3>Teaching Assistant Experience</h3>
-          <ul>
-            <li>BIOF 520: Problem-based Learning in Bioinformatics (Jan 2025 – Apr 2025)</li>
-            <li>DSCI 513: Databases and Data Retrieval (Nov 2024 – Dec 2024)</li>
-            <li>DSCI 521: Computing Platforms for Data Science (Sep 2024 – Oct 2024)</li>
-            <li>DSCI 572: Supervised Learning II (Jan 2024 – Feb 2024)</li>
-            <li>CPEN 442: Introduction to Cybersecurity (Sep 2023 – Dec 2023)</li>
-          </ul>
-        </article>
-        <article class="card">
-          <h3>Mentoring & Service</h3>
-          <ul>
-            <li>Mentor, UBC Persian Club Mentorship Program</li>
-            <li>Mentor, UBC Bioinformatics Group Program</li>
-            <li>Sub-reviewer: RECOMB 2025, RECOMB-seq 2024, RECOMB 2024</li>
-            <li>Reviewer: UJEMI+ Conference (2024)</li>
-          </ul>
-        </article>
-      </div>
-    </section>
-
-    <section id="links" class="container section">
-      <h2>CV & Profiles</h2>
-      <div class="card">
-        <div class="hero-links">
-          <a href="https://drive.google.com/file/d/1Gym3_Jk5zeFhWpyBeWrCRLhkaXOsLiTP/view?usp=sharing" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> Download CV</a>
-          <a href="https://scholar.google.com/citations?user=olk8Xe4AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
-          <a href="https://github.com/alibalapour" target="_blank" rel="noopener">GitHub</a>
-          <a href="https://www.linkedin.com/in/alibalapour/" target="_blank" rel="noopener">LinkedIn</a>
+    <section class="contact-section">
+      <div class="shell contact-inner">
+        <p class="section-index">05 / Connect</p>
+        <h2>Get in touch</h2>
+        <p>You can find my work and contact information through the links below.</p>
+        <div class="contact-links">
+          <a href="https://github.com/alibalapour" target="_blank" rel="noopener">GitHub <span>↗</span></a>
+          <a href="https://scholar.google.com/citations?user=olk8Xe4AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar <span>↗</span></a>
+          <a href="https://www.linkedin.com/in/alibalapour/" target="_blank" rel="noopener">LinkedIn <span>↗</span></a>
         </div>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="container">
-      <p>© <span id="year"></span> Ali Balapour · UBC Computer Science</p>
+    <div class="shell footer-inner">
+      <p>© <span data-year>2026</span> Ali Balapour</p>
+      <p>PhD Student · UBC Computer Science</p>
+      <a href="#top">Back to top ↑</a>
     </div>
   </footer>
-
-  <script>
-    const root = document.documentElement;
-    const toggle = document.getElementById('theme-toggle');
-    const storedTheme = localStorage.getItem('theme');
-    if (storedTheme) root.dataset.theme = storedTheme;
-    toggle.addEventListener('click', () => {
-      const next = root.dataset.theme === 'dark' ? 'light' : 'dark';
-      root.dataset.theme = next;
-      localStorage.setItem('theme', next);
-    });
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
 </body>
 </html>

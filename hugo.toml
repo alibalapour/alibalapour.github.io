@@ -1,0 +1,7 @@
+baseURL = "https://alibalapour.github.io/"
+languageCode = "en-us"
+title = "Ali Balapour | Medical AI Researcher"
+disableKinds = ["taxonomy", "term", "RSS", "sitemap"]
+
+[params]
+description = "Ali Balapour is a UBC Computer Science PhD student working on medical AI, 3D computer vision, and computational biology."
