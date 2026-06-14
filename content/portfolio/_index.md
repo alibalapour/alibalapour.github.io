@@ -1,3 +1,3 @@
 +++
-title = "Creative Portfolio"
+title = "Portofolio"
 +++

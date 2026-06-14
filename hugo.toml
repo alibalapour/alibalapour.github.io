@@ -17,3 +17,7 @@ target = "static/assets/css/side-pages.css"
 [[module.mounts]]
 source = "assets/js/site.js"
 target = "static/assets/js/site.js"
+
+[[module.mounts]]
+source = "assets/portofolio"
+target = "static/assets/portofolio"
